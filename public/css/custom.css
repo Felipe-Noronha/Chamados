@@ -1,0 +1,32 @@
+
+body, .btn, .form-control, .form-select, .list-group-item, .navbar-brand, .nav-link {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+    border-radius: 50px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-weight: 500;
+}
+
+.jumbotron-custom {
+    background-color: #f8f9fa;
+}
+
+.page-item.active .page-link {
+    background-color: #212529;
+    border-color: #212529;
+    color: white;
+}
+.page-link {
+    color: #212529;
+}
+.page-link:hover {
+    color: #000;
+}
+.page-item.disabled .page-link {
+    color: #6c757d;
+}
